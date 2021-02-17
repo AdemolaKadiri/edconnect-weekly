@@ -33,14 +33,15 @@
 <form name="editProject">
 
 <label for="name"> Project Name:</label> <br>
-<input type="text"/> <br>
+<input type="text" name="name" required/> <br>
 <label for="abstract"> Project Abstract: </label> <br>
-<textarea="text"/> <br>
+<textarea="text" name="abstract" required/> <br>
 <label for="authors"> Authors: </label> <br>
-<input type="text"> <br>
-<label for="tags"> Tag(s): </label> <input type="text"/> <br>
+<input type="text" name="authors"required> <br>
+<label for="tags"> Tag(s): </label> 
+<input type="text" name="tags"/> <br>
 <label for="projectFile"> Upload File: </label> <br>
-<input type="file"/> 
+<input type="file" name="projectFile"/> 
 
 <br>
 <br>
@@ -53,5 +54,7 @@
 
 
 </div>
+
+</main>
 
 </html>
